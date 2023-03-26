@@ -1,0 +1,431 @@
+html{
+	font-family: 'Sofia Sans', sans-serif;
+	background-color: white;
+}
+
+h1{
+	font-size: 32px;
+	color: #CE1141;
+	text-align: left;
+	text-shadow: 1.5px 1.5px 0.5px black;
+	display: block;
+	
+}
+
+.front{
+	color: black;
+	font-size: 48px;
+}
+
+.aboutShoe{
+	color: black;
+	text-align: center;
+	display: block;
+}
+
+p{
+	color:black;
+	font-size: 16px;
+	line-height: 2;
+	letter-spacing: 1px;
+}
+
+p a{
+	color:#CE1141;
+}
+
+img{
+	display: block;
+	margin: 0 auto;
+	width: 75%;
+	padding-top: 5px;
+}
+
+body{
+	margin: 0 auto;
+	overflow-x: hidden;
+}
+
+.hype{
+	padding-left: 55px;
+	padding-right: 55px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #ddd;
+}
+
+.logo{
+    color: #CE1141;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    color: #CE1141;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: #CE1141;
+    margin: 6px;
+    transition: all 0.3s ease;
+}
+
+.scrollDownText{
+	text-align: center;
+	font-size: 35px;
+}
+
+.scrollDownImage{
+	max-width: 25%;
+}
+
+.scrollToSeeMore{
+	margin-top: 2.5%;
+}
+
+@media screen and (max-width:1024px){
+    .nav-links{
+        width: 60%;
+
+    }
+}
+
+@media screen and (max-width:768px){
+    .nav-links{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .nav-links{
+        width: 50%;
+		display: block;
+    }
+}
+/*-----------------*/
+
+input[type=text], select,textarea{
+	width: 100%;
+	padding: 14px;
+	border: 1px solid black;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+input[type=email], select,textarea{
+	width: 100%;
+	padding: 14px;
+	border: 1px solid black;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+input[type = submit]{
+	background-color: #CE1141;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type = submit]:hover{
+	background-color: #ad0c34;
+}
+
+
+
+.container{
+	border-radius: 5px;
+	padding-top: 10px;
+	background-color: #f2f2f2;
+	padding: 25px 25px 25px 25px;
+	width: 45%;
+	float: right;
+}
+
+.level1{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.left1{
+	float: left;
+	width: 35%;
+	padding-left: 15%;
+}
+
+.right1{
+	float: right;
+	width: 50%;
+}
+
+.front{
+	padding-bottom: 25px;
+	display: flex;
+	height: 100%;
+	width:100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.left2{
+	float:left;
+	width:35%;
+	padding-left: 15%;
+
+}
+
+.right2{
+	float: right;
+	width: 50%;
+}
+
+.AJ1OGChicago{
+	padding-bottom: 25px;
+	padding-top: 25px;
+	display: flex;
+	height: 100%;
+	width: 100%;
+	align-items: center;
+	overflow: auto;
+}
+
+.OffWhiteAJ1Chicago{
+	padding-bottom: 25px;
+	padding-top: 25px;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	overflow: auto;
+}
+
+.left3{
+	float:left;
+	width:35%;
+	padding-left: 15%;
+}
+
+.right3{
+	float: right;
+	width: 50%;
+}
+
+.Jordan1RetroHighTravisScott{
+	padding-bottom: 25px;
+	padding-top: 25px;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	overflow: auto;
+}
+
+.left4{
+	float:left;
+	width:35%;
+	padding-left: 15%;
+}
+
+.right4{
+	float: right;
+	width: 50%;
+}
+
+.NewBalance990v5{
+	padding-bottom: 25px;
+	padding-top: 25px;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	overflow: auto;
+}
+
+.left5{
+	float:left;
+	width:35%;
+	padding-left: 15%;
+}
+
+.right5{
+	float: right;
+	width: 50%;
+}
+
+.Jordan11RetroCoolGrey{
+	padding-bottom: 25px;
+	padding-top: 25px;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	overflow: auto;
+}
+
+h3{
+	font-size: 30px;
+}
+
+.aboutShoe{
+	font-size: 48px;
+}
+
+span{
+	opacity: 0;
+	transition: all 1s ease;
+	color: black;
+}
+
+span.fade{
+	opacity: 1;
+	color:#CE1141;
+}
+
+.manyShoes{
+	padding-bottom: 25px;
+	width: 35%;
+}
+
+.contactLevel1{
+	padding-bottom: 25px;
+}
+
+.contactInput{
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 45px;
+}
+
+/*CSS Animations*/
+
+.body1{
+	animation-duration: 4s;
+	animation-name: slideFromBottom;
+}
+
+.manyShoes{
+	animation-duration: 6s;
+	animation-name: fadeIn;
+}
+
+.container{
+	animation-duration: 3s;
+	animation-name: slideFromLeft;
+}
+
+nav{
+	animation-duration: 4s;
+	animation-name: fadeIn;
+}
+
+.contactInput{
+	padding-bottom: 25px;
+	padding-top: 25px;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	overflow: auto;
+}
+.contactPageImage{
+	width: 40%;
+	animation-duration: 6s;
+	animation-name: fadeIn;
+}
+
+.sumbitButton{
+	float: right;
+}
+
+footer{
+	display: flex;
+    justify-content: center;
+}
+
+
+
+@keyframes slideFromBottom{
+	from {
+		/*margin-top: 100%;*/
+		transform: translateY(100%);
+	}
+	
+	to {
+		/*margin-top: 2.8%;*/
+		transform: translateY(0);
+	}
+}
+
+@keyframes fadeIn{
+	from{
+		opacity: 0;
+		color: white;
+	}
+	to{
+		opacity: 1;
+		color: black;
+	}
+}
+
+@keyframes slideFromLeft{
+	from{
+		/*margin-left: 100%;
+		width: 300%;*/
+		transform: translateX(100%);
+	}
+	to{
+		/*margin-left: 0%;
+		width: 100%;*/
+		transform: translateX(0);
+	}
+}
+
+/*Scrolling Animations*/
+
+.reveal{
+	position: relative;
+	transform: translateY(150px);
+	opacity: 0;
+	transition: 2s all ease;
+}
+
+.reveal.active{
+	transform: translateY(0);
+	opacity: 1;
+}
